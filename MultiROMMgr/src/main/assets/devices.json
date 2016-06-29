@@ -698,6 +698,29 @@
                     "path": "/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache"
                 }
             ]
+        },
+        {
+            "names": [ "aries" ],
+            "manifest_url": "https://multirom-aries.github.io/manifest.json",
+            "check_gpg": false,
+            "ubuntu_touch": {
+                "enabled": false
+            },
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/cache"
+                }
+            ]
         }
+
     ]
 }
